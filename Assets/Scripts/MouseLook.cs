@@ -53,6 +53,6 @@ public class MouseLook : MonoBehaviour
     private void UnlockCursor()
     {
         Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+        
     }
 }
